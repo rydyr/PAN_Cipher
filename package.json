@@ -1,0 +1,35 @@
+{
+  "name": "pancipher",
+  "version": "1.0.0",
+  "description": "PolyAlphaNumeric Cipher",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Matthew Edmiston",
+    "email": "matthewmedmiston@gmail.com",
+    "url": "http:url.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
