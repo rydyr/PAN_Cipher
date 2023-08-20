@@ -26,4 +26,60 @@ Enter the polyalphanumeric cipher. By weaving together multiple characters, it e
 
 Firstly it's important to note that PAN cipher is based on ancient cryptographic techniques and not on modern encryption technology. It's highly recommended NOT to use this encryption on any type of genuinely sensitive information.
 
-This application is intended to be used for education and entertainment purposes only.
+This application is intended to be used for educational and entertainment purposes only.
+
+
+## Getting started.
+
+Live Demo
+
+If you have a Repl.it account and would like to try a live demo, click the button at the top of this Readme, follow any prompts for logging in, then simply press the run button. 
+
+Local application 
+
+To run this application locally you first need to clone the repository. Open a terminal and cd to the location where you would like to save the files.
+
+```cd /path/to/directory```
+
+Next clone the directory 
+
+```git clone https://github.com/rydyr/PAN_Cipher.git ```
+
+Navigate to the repository 
+
+```cd PAN_Cipher```
+
+Install the dependencies 
+
+```npm install ```
+
+Then run the application 
+
+```node cipher ```
+
+
+## How to use 
+
+The PAN_Cipher interface is very simple. You're first prompted to make a choice of either encrypting or decrypting.
+
+### To encrypt
+
+Press 1. 
+
+You will now be prompted to enter a secret key. This can be any word or letter combination. Choose something you will remember as this key will be needed later to decrypt the message. 
+
+Next you will be prompted to enter the message you would like to encrypt. Upon completion you will recieve a color coded score and be given the option to either save the output as a .txt file or exit. 
+
+The score represents the level of deviation from typical English letter frequency. The higher the level of deviation the better the encryption.
+
+### To decrypt 
+
+Press 2.
+
+You will now be prompted to enter the message for decryption. 
+
+Once the message is entered you will be prompted to enter the key. 
+
+Once the correct key is entered you will see the hidden message and be given the option to either save the output as a .txt or exit.
+
+
