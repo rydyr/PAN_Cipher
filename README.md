@@ -16,7 +16,7 @@ This application was originally intended to be run from a full-screen desktop te
 
 ## What is PAN cipher?
 
-PAN Cipher stands for PolyAlphaNumeric Cipher. A polyalphanumeric cipher is a fascinating method of encryption that goes beyond the traditional single-alphabet substitution systems such as the Ceasar cipher. Rather than a single-character key, this cipher employs multiple-characters for encryption. The essence of its mechanism lies in the dynamic rotation of characters based on their alignment with the key. This introduces an added layer of complexity, making the encoded message even more challenging for interceptors to decipher. By intertwining multiple characters, the polyalphanumeric cipher offered a robust and intricate way to secure infomation, ensuring the message remained a riddle to those without knowledge of its inner workings.
+PAN Cipher stands for PolyAlphaNumeric Cipher. A polyalphanumeric cipher is a fascinating method of encryption that goes beyond the traditional single-alphabet substitution systems such as the Ceasar cipher. Rather than a single-character key, this cipher employs multiple-characters for encryption. The essence of its mechanism lies in the dynamic rotation of characters based on their alignment with the key. This introduces an added layer of complexity, making the encoded message even more challenging for interceptors to decipher. By intertwining multiple characters, the polyalphanumeric cipher offers a robust and intricate way to secure infomation, ensuring the message remained a riddle to those without knowledge of its inner workings.
 
 While the Cesear cipher was groundbreaking in its time, it had an Achilles heel: letter frequency. In any language, certain letters or combinations appear more frequently than others. For instance in English, letters like 'E','T', and 'A' are used more often. Astute observers realized that by analyzing the frequency of letters in the encrypted message, they could make educated guesses about the original content, making the Ceasar cipher susceptible to what's known as frequency analysis.
 
@@ -83,3 +83,6 @@ Once the message is entered you will be prompted to enter the key.
 Once the correct key is entered you will see the hidden message and be given the option to either save the output as a .txt or exit.
 
 
+### Future improvements 
+
+- Improve code structure by implementing proper design patterns. As example the Module Design pattern could be employed to help protect certain functions and variables.
